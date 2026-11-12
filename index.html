@@ -203,12 +203,27 @@
   }
   #export-modal .card { max-width: 380px; }
   .small-note { font-size: 0.78rem; color: var(--muted); margin-top: 10px; line-height: 1.4; }
+  .studio-header {
+    position: fixed;
+    top: 24px;
+    left: 24px;
+    font-family: "Bebas Neue", Georgia, serif;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    color: var(--ink);
+    text-align: left;
+    z-index: 5;
+  }
+  .studio-header .divider { color: var(--accent); margin: 0 6px; }
 </style>
 </head>
 <body>
 
 <!-- LOGIN SCREEN -->
 <div class="screen" id="login-screen">
+  <div class="studio-header">Interior Design Studio<span class="divider">—</span>Laura Sangiorgi, Giacomo Butte</div>
   <div class="card">
     <h1>Domestic Space — User Interview</h1>
     <p class="sub">Enter the class password to begin the interview exercise.</p>
